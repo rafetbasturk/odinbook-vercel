@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiFetch = axios.create({
-  baseURL: "/api/v1",
+  baseURL: "https://odinbook-vercel.vercel.app",
   withCredentials: true,
 });
 
